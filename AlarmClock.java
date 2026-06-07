@@ -42,9 +42,9 @@ public class AlarmClock {
                     && currentTime.getMinute() == alarmTime.getMinute()
                     && currentTime.getSecond() == alarmTime.getSecond()) {
 
-                System.out.println("\n\n⏰ ALARM RINGING!");
+                System.out.println("\n\n ALARM RINGING!⏰");
 
-                // Beep 10 times
+                
                 for (int i = 0; i < 10; i++) {
 
                     Toolkit.getDefaultToolkit().beep();
